@@ -1,0 +1,23 @@
+.comment{
+   font-weight: 900;
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+}
+.body{
+    text-align: center;
+}
+input{
+    width: 200px; 
+    height: 30px;
+    padding-left: 20px;
+    background-color:rgba(200, 225, 225, 0.442);
+    border-radius: 10px;
+    box-shadow: 10px 5px ;
+
+}
+button{
+    background-color:lightblue;
+    border-radius: 6px;
+    color: white;
+}
