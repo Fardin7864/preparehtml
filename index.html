@@ -11,10 +11,13 @@
     <h1 class="comment">Comment list </h1>
    <div>
     <form action="">
-        <input type="text" placeholder="Your Name"> <br><br>
-        <input type="email" placeholder="Email" name="" id=""><br><br>
-        <input type="number" placeholder="Mobile" name="" id=""><br><br>
-        <button>comment</button>
+        <label for="text">Name: <span id="name-output"></span></label>
+        <input type="text" placeholder="Your Name" id="name-input"> <br><br>
+        <label for="text">Email: <span id="email-output"></span></label>
+        <input type="email" placeholder="Email" name="" id="email-input"><br><br>
+        <label for="text">Mobile: <span id="mobile-output"></span></label>
+        <input type="number" placeholder="Mobile" name="" id="mobile-input"><br><br>
+        <button id="comment-btn">comment</button>
     </form>
    </div>
    <div>
@@ -26,4 +29,6 @@
    </div>
     
 </body>
+<script src="index.js">
+</script>
 </html>
