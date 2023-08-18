@@ -1,14 +1,8 @@
-
-
-
-
-
 function setElementById(inputId,textId){
     const inputText = document.getElementById(inputId);
     const outputText = document.getElementById(textId);
     outputText.innerText = inputText.value;
     inputText.value = '';
-
     }
     
 document.getElementById('comment-btn').addEventListener('click',(e) => { 
